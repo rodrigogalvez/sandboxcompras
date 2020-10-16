@@ -1,7 +1,7 @@
 /* global describe, it, expect */
 
-import { createLocalVue, shallowMount } from "@vue/test-utils";
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
+import { createLocalVue, shallowMount } from "@vue/test-utils";
 import Compras from "@/components/Compras";
 
 const localVue = createLocalVue();
