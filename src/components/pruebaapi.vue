@@ -62,7 +62,7 @@ export default {
   },
   methods: {
     consultar() {
-      fetch("https://randomuser.me/api?results=10").then((respuesta) => {
+      fetch("https://randomuser.me/api?results=3").then((respuesta) => {
         if (respuesta.status !== 200) {
           this.resultado = "ERROR" + respuesta.status;
           this.ok = false;
