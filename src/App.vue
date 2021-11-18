@@ -3,7 +3,7 @@
     <b-container>
       <img alt="Vue logo" src="./assets/logo.png" width="25%" />
       <!-- <HelloWorld msg="Hello Vue in CodeSandbox!" /> -->
-      <!-- <Compras></Compras> -->
+      <Compras></Compras>
       <pruebaapi></pruebaapi>
     </b-container>
   </div>
@@ -11,14 +11,14 @@
 
 <script>
 // import HelloWorld from "./components/HelloWorld";
-// import Compras from "./components/Compras.vue";
+import Compras from "./components/Compras.vue";
 import pruebaapi from "./components/pruebaapi.vue";
 
 export default {
   name: "App",
   components: {
     // HelloWorld,
-    // Compras,
+    Compras,
     pruebaapi,
   },
 };
